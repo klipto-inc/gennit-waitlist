@@ -65,7 +65,7 @@ export function SiteHeader() {
                       <li>
                         <NavigationMenuLink asChild>
                           <Link
-                            href="/about"
+                            href="/comingsoon"
                             className="flex items-start gap-4 select-none rounded-xl p-4 leading-none no-underline outline-none transition-all duration-300 hover:bg-white/10 hover:text-white text-gray-200 group"
                           >
                             <div className="mt-1 bg-white/10 rounded-lg p-2 group-hover:bg-white/15 transition-colors duration-300">
@@ -86,7 +86,7 @@ export function SiteHeader() {
                       <li>
                         <NavigationMenuLink asChild>
                           <Link
-                            href="/team"
+                            href="/comingsoon"
                             className="flex items-start gap-4 select-none rounded-xl p-4 leading-none no-underline outline-none transition-all duration-300 hover:bg-white/10 hover:text-white text-gray-200 group"
                           >
                             <div className="mt-1 bg-white/10 rounded-lg p-2 group-hover:bg-white/15 transition-colors duration-300">
@@ -135,7 +135,7 @@ export function SiteHeader() {
                       <li>
                         <NavigationMenuLink asChild>
                           <Link
-                            href="/blog"
+                            href="/comingsoon"
                             className="flex items-start gap-4 select-none rounded-xl p-4 leading-none no-underline outline-none transition-all duration-300 hover:bg-white/10 hover:text-white text-gray-200 group"
                           >
                             <div className="mt-1 bg-white/10 rounded-lg p-2 group-hover:bg-white/15 transition-colors duration-300">
@@ -195,7 +195,7 @@ export function SiteHeader() {
                       <li>
                         <NavigationMenuLink asChild>
                           <Link
-                            href="/templates"
+                            href="/comingsoon"
                             className="flex items-start gap-4 select-none rounded-xl p-4 leading-none no-underline outline-none transition-all duration-300 hover:bg-white/10 hover:text-white text-gray-200 group"
                           >
                             <div className="mt-1 bg-white/10 rounded-lg p-2 group-hover:bg-white/15 transition-colors duration-300">
@@ -216,7 +216,7 @@ export function SiteHeader() {
                   </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/pricing" legacyBehavior passHref>
+                  <Link href="/comingsoon" legacyBehavior passHref>
                     <NavigationMenuLink
                       className={cn(
                         navigationMenuTriggerStyle(),
