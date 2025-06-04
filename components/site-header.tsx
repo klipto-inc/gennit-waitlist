@@ -270,21 +270,21 @@ export function SiteHeader() {
                 Company
               </div>
               <Link
-                href="/about"
+                href="/comingsoon"
                 className="flex items-center gap-3 px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-300"
               >
                 <Building2 className="h-4 w-4" />
                 About
               </Link>
               <Link
-                href="/team"
+                href="/comingsoon"
                 className="flex items-center gap-3 px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-300"
               >
                 <Users className="h-4 w-4" />
                 Team
               </Link>
               <Link
-                href="/careers"
+                href="/comingsoon"
                 className="flex items-center gap-3 px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-300"
               >
                 <Briefcase className="h-4 w-4" />
@@ -298,28 +298,28 @@ export function SiteHeader() {
                 Resources
               </div>
               <Link
-                href="/blog"
+                href="/comingsoon"
                 className="flex items-center gap-3 px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-300"
               >
                 <FileText className="h-4 w-4" />
                 Blog
               </Link>
               <Link
-                href="/docs"
+                href="/comingsoon"
                 className="flex items-center gap-3 px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-300"
               >
                 <BookOpen className="h-4 w-4" />
                 Documentation
               </Link>
               <Link
-                href="/community"
+                href="/comingsoon"
                 className="flex items-center gap-3 px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-300"
               >
                 <MessageSquare className="h-4 w-4" />
                 Community
               </Link>
               <Link
-                href="/templates"
+                href="/comingsoon"
                 className="flex items-center gap-3 px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-300"
               >
                 <Layout className="h-4 w-4" />
@@ -328,7 +328,7 @@ export function SiteHeader() {
             </div>
 
             <Link
-              href="/pricing"
+              href="/comingsoon"
               className="flex items-center gap-3 px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-300"
             >
               <CreditCard className="h-4 w-4" />
