@@ -236,7 +236,7 @@ export default function ComingSoonPage() {
         <div className="my-16 flex items-center gap-8 text-sm text-gray-500">
           <div className="flex items-center gap-3">
             <Clock className="w-4 h-4" />
-            <span>Launching Soon</span>
+            <span>Launching Soon 🎉</span>
           </div>
           <div className="w-px h-5 bg-white/10"></div>
           <div>Stay tuned for updates</div>
