@@ -9,6 +9,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { SiteHeader } from "@/components/site-header";
 import { toast, Toaster } from "sonner";
+import Nav from "@/components/Nav";
 
 // Helper function to calculate time left until a target date
 const calculateTimeLeft = () => {
@@ -72,9 +73,7 @@ export default function ComingSoonPage() {
   const [totalEmails, setTotalEmails] = useState<number>(0);
 
   const url =
-    process.env.NODE_ENV === "production"
-      ? process.env.NEXT_PUBLIC_PROD_SERVER
-      : process.env.NEXT_PUBLIC_LOCAL_SERVER;
+    "https://gennit-server-hnfxc6bchxaaesey.canadacentral-01.azurewebsites.net/api/v1/";
 
   const handleEmailSubscriber = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -121,8 +120,9 @@ export default function ComingSoonPage() {
 
   return (
     <div className="min-h-screen bg-[#0a0a0a] relative overflow-hidden">
+      <Nav />
       {/* Modern background patterns */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 mt-8">
         {/* Refined dot matrix pattern */}
         <div
           className="absolute inset-0"
@@ -159,20 +159,11 @@ export default function ComingSoonPage() {
       </div>
 
       {/* Main content */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 pt-16 pb-16">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 pt-2 pb-16">
         {/* Logo */}
-        <div className="mb-12">
-          <img
-            src="https://gennit-client.vercel.app/_next/static/media/gennit.a85b87d1.svg"
-            alt="Logo"
-            width="40"
-            height="40"
-            className="h-10 w-10"
-          />
-        </div>
 
         {/* Headline and Tagline */}
-        <div className="text-center mb-12 max-w-4xl">
+        <div className="text-center mb-12 max-w-4xl mt-14">
           <h1 className="text-3xl md:text-7xl font-bold text-white leading-[0.9] mb-6 tracking-tight">
             Coming Soon
           </h1>
@@ -244,8 +235,8 @@ export default function ComingSoonPage() {
         {/* Additional Info */}
         <div className="my-16 flex items-center gap-8 text-sm text-gray-500">
           <div className="flex items-center gap-3">
-            <Clock className="w-4 h-4" />
-            <span>Launching Soon</span>
+            {/* <Clock className="w-4 h-4" /> */}
+            <span>Launching Soon 🎉</span>
           </div>
           <div className="w-px h-5 bg-white/10"></div>
           <div>Stay tuned for updates</div>
