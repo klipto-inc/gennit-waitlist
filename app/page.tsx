@@ -120,6 +120,7 @@ export default function ComingSoonPage() {
 
   return (
     <div className="min-h-screen bg-[#0a0a0a] relative overflow-hidden">
+      <Nav />
       {/* Modern background patterns */}
       <div className="absolute inset-0">
         {/* Refined dot matrix pattern */}
@@ -160,8 +161,6 @@ export default function ComingSoonPage() {
       {/* Main content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 pt-2 pb-16">
         {/* Logo */}
-
-        <Nav />
 
         {/* Headline and Tagline */}
         <div className="text-center mb-12 max-w-4xl mt-14">
