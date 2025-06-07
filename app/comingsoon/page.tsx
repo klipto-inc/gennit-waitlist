@@ -173,10 +173,10 @@ export default function ComingSoonPage() {
 
         {/* Headline and Tagline */}
         <div className="text-center mb-12 max-w-4xl">
-          <h1 className="text-6xl md:text-7xl font-bold text-white leading-[0.9] mb-6 tracking-tight">
+          <h1 className="text-3xl md:text-7xl font-bold text-white leading-[0.9] mb-6 tracking-tight">
             Coming Soon
           </h1>
-          <p className="text-gray-400 text-xl md:text-2xl leading-relaxed max-w-2xl mx-auto font-light">
+          <p className="text-gray-400 text-base md:text-2xl leading-relaxed max-w-2xl mx-auto font-light">
             We're crafting something extraordinary. Get ready for a new era of
             innovation.
           </p>
