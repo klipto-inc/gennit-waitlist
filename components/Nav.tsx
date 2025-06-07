@@ -12,7 +12,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <div className="flex flex-row items-center justify-between w-full h-16 px-4">
+    <div className="flex flex-row items-center justify-between w-full h-16 px-4 md:px-8 lg:px-16">
       <Link href="/" className="flex items-center">
         <img
           src="./images/gennit.svg"
