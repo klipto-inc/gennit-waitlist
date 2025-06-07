@@ -14,9 +14,7 @@ export default function Component() {
   const [totalEmails, setTotalEmails] = useState<number>(0);
 
  
-  const url = process.env.NODE_ENV === "production"
-    ? process.env.NEXT_PUBLIC_PROD_SERVER
-    : process.env.NEXT_PUBLIC_LOCAL_SERVER;
+  const url = "https://gennit-server-hnfxc6bchxaaesey.canadacentral-01.azurewebsites.net/api/v1/";
 
   const handleEmailSubscriber = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
