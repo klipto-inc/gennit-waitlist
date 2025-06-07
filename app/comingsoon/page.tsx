@@ -79,11 +79,11 @@ export default function ComingSoonPage() {
     e.preventDefault();
     setLoading(true);
 
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!email || !emailRegex.test(email)) {
-      setLoading(false);
-      return;
-    }
+    // const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    // if (!email || !emailRegex.test(email)) {
+    //   setLoading(false);
+    //   return;
+    // }
 
     try {
       const response = await axios.post(`${url}waitlist/email`, { email });
