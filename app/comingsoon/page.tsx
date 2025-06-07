@@ -189,7 +189,7 @@ export default function ComingSoonPage() {
               <React.Fragment key={index}>
                 {component}
                 {index < timerComponents.length - 1 && (
-                  <div className="w-px h-16 bg-white/10 self-center" />
+                  <div className="w-px h-8 md:h-16 bg-white/10 self-center" />
                 )}
               </React.Fragment>
             ))
