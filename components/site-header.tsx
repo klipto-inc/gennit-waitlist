@@ -269,7 +269,7 @@ export function SiteHeader() {
                 <Building className="h-4 w-4" />
                 Company
               </div>
-              <Link
+              {/* <Link
                 href="/comingsoon"
                 className="flex items-center gap-3 px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-300"
               >
@@ -282,7 +282,7 @@ export function SiteHeader() {
               >
                 <Users className="h-4 w-4" />
                 Team
-              </Link>
+              </Link> */}
               <Link
                 href="/comingsoon"
                 className="flex items-center gap-3 px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-300"
@@ -293,7 +293,7 @@ export function SiteHeader() {
             </div>
 
             <div className="space-y-3">
-              <div className="text-sm font-semibold text-white px-4 py-2 flex items-center gap-2">
+              {/* <div className="text-sm font-semibold text-white px-4 py-2 flex items-center gap-2">
                 <BookText className="h-4 w-4" />
                 Resources
               </div>
@@ -303,7 +303,7 @@ export function SiteHeader() {
               >
                 <FileText className="h-4 w-4" />
                 Blog
-              </Link>
+              </Link> */}
               <Link
                 href="/comingsoon"
                 className="flex items-center gap-3 px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-300"
