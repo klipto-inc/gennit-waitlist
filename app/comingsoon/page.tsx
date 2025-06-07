@@ -60,7 +60,7 @@ export default function ComingSoonPage() {
     }
     return (
       <div key={interval} className="flex flex-col items-center">
-        <span className="text-5xl font-bold text-white">
+        <span className="text-xl md:text-3xl lg:text-5xl font-bold text-white">
           {value.toString().padStart(2, "0")}
         </span>
         <span className="text-sm text-gray-400 uppercase">{interval}</span>
@@ -189,7 +189,7 @@ export default function ComingSoonPage() {
               <React.Fragment key={index}>
                 {component}
                 {index < timerComponents.length - 1 && (
-                  <div className="w-px h-8 md:h-16 bg-white/10 self-center" />
+                  <div className="w-px h-16 bg-white/10 self-center" />
                 )}
               </React.Fragment>
             ))
