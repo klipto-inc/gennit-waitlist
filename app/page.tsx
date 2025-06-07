@@ -9,6 +9,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { SiteHeader } from "@/components/site-header";
 import { toast, Toaster } from "sonner";
+import Nav from "@/components/Nav";
 
 // Helper function to calculate time left until a target date
 const calculateTimeLeft = () => {
@@ -159,20 +160,13 @@ export default function ComingSoonPage() {
       </div>
 
       {/* Main content */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 pt-16 pb-16">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 pt-2 pb-16">
         {/* Logo */}
-        <div className="mb-12">
-          <img
-            src="https://gennit-client.vercel.app/_next/static/media/gennit.a85b87d1.svg"
-            alt="Logo"
-            width="40"
-            height="40"
-            className="h-10 w-10"
-          />
-        </div>
+
+        <Nav />
 
         {/* Headline and Tagline */}
-        <div className="text-center mb-12 max-w-4xl">
+        <div className="text-center mb-12 max-w-4xl mt-14">
           <h1 className="text-3xl md:text-7xl font-bold text-white leading-[0.9] mb-6 tracking-tight">
             Coming Soon
           </h1>
