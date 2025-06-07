@@ -183,7 +183,7 @@ export default function ComingSoonPage() {
         </div>
 
         {/* Countdown Timer */}
-        <div className="flex items-center justify-center gap-x-8 mb-12">
+        <div className="flex items-center justify-center gap-x-5 md:gap-x-8 mb-12">
           {timerComponents.length ? (
             timerComponents.map((component, index) => (
               <React.Fragment key={index}>
