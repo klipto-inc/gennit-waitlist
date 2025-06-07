@@ -98,7 +98,7 @@ export default function Component() {
 
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 pt-32">
         <div className="text-center my-16 max-w-4xl ">
-          <h1 className="text-6xl md:text-7xl font-bold text-white leading-[0.9] mb-8 tracking-tight">
+          <h1 className="text-xl md:text-7xl font-bold text-white leading-[0.9] mb-8 tracking-tight">
             Ship at the speed of
             <span className="text-white/90 font-light italic"> thought</span>
           </h1>
