@@ -22,7 +22,7 @@ const Nav = () => {
           className="h-7 w-7"
         />
       </Link>
-      <div className="pt-4 border-t border-white/10">
+      <div className="border-t border-white/10">
         <Button
           size="sm"
           className="w-full bg-white text-black hover:bg-gray-100 rounded-xl h-10 text-sm font-semibold transition-all duration-300"

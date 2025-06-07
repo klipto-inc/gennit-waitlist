@@ -122,7 +122,7 @@ export default function ComingSoonPage() {
     <div className="min-h-screen bg-[#0a0a0a] relative overflow-hidden">
       <Nav />
       {/* Modern background patterns */}
-      <div className="absolute inset-0 mt-8">
+      <div className="absolute inset-0 top-10">
         {/* Refined dot matrix pattern */}
         <div
           className="absolute inset-0"
