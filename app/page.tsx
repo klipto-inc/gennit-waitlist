@@ -123,11 +123,11 @@ export default function Component() {
               className="pl-14 pr-36 bg-white/[0.03] border border-white/10 text-white placeholder-gray-500 focus-none h-16 text-base backdrop-blur-sm transition-all duration-300 rounded-2xl"
             />
             <Button
-              className="absolute right-3 top-3 bottom-3 bg-white text-black hover:bg-gray-100 px-8 text-base font-medium transition-all duration-300 rounded-xl"
+              className="absolute right-3 top-3 bottom-3 bg-white text-black hover:bg-gray-100 px-8 text-base font-medium transition-all duration-300 rounded-xl flex flex-row items-center justify-center"
               type="submit"
               disabled={loading}
             >
-              Join
+              <span className="hidden md:flex">Join</span>
               <ArrowRight className="ml-3 h-5 w-5" />
             </Button>
           </div>
